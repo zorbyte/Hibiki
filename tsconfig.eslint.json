@@ -3,6 +3,6 @@
     "include": [
       ".eslintrc.js",
       ".prettierrc.js",
-      "./**/*.ts"
+      "./src/**/*"
     ]
   }
