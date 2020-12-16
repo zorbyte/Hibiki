@@ -1,55 +1,58 @@
 {
-  "private": "true",
-  "name": "hibiki",
-  "version": "3.3.0-alpha",
-  "description": "An easy, versatile, and all-in-one Discord bot that does anything your server needs.",
-  "author": "Espi <contact@espi.me> (https://espi.me)",
-  "contributors": [
-    "resolved <resolvedxd@gmail.com> (https://github.com/resolvedxd)",
-    "cth103 <eim@riseup.net> (https://github.com/cthpw103)",
-    "TTtie <me@tttie.cz> (https://tttie.cz)"
-  ],
-  "license": "AGPL-3.0-or-later",
-  "homepage": "https://hibiki.app",
-  "main": "dist/src/index.js",
-  "bugs": {
-    "url": "https://github.com/smolespi/Hibiki/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/smolespi/Hibiki.git"
-  },
-  "engines": {
-    "npm": ">=6.9.0",
-    "node": ">=14.0.0"
-  },
-  "scripts": {
-    "build": "tsc",
-    "dev": "nodemon",
-    "format": "cross-env prettier --config .prettierrc 'src/**/*.{css,htm,html,js,json,ts,tsx}' --write",
-    "lint": "eslint --fix .",
-    "start": "tsc && cross-env NODE_ENV=production node dist/src/index.js",
-    "test": "eslint ."
-  },
-  "dependencies": {
-    "@sentry/node": "^5.29.0",
-    "axios": "^0.21.0",
-    "eris": "^0.14.0",
-    "rethinkdb-ts": "^2.4.5",
-    "winston": "^3.3.3"
-  },
-  "devDependencies": {
-    "@sentry/types": "^5.29.0",
-    "@types/node": "^14.14.13",
-    "@typescript-eslint/eslint-plugin": "^4.10.0",
-    "@typescript-eslint/parser": "^4.10.0",
-    "cross-env": "^7.0.3",
-    "eslint": "^7.15.0",
-    "eslint-config-prettier": "^7.0.0",
-    "eslint-plugin-prettier": "^3.3.0",
-    "nodemon": "^2.0.6",
-    "prettier": "^2.2.1",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.1.3"
+    "private": "true",
+    "name": "hibiki",
+    "version": "3.3.0-alpha",
+    "description": "An easy, versatile, and all-in-one Discord bot that does anything your server needs.",
+    "author": "Espi <contact@espi.me> (https://espi.me)",
+    "contributors": [
+      "resolved <resolvedxd@gmail.com> (https://github.com/resolvedxd)",
+      "cth103 <eim@riseup.net> (https://github.com/cthpw103)",
+      "TTtie <me@tttie.cz> (https://tttie.cz)"
+    ],
+    "license": "AGPL-3.0-or-later",
+    "homepage": "https://hibiki.app",
+    "main": "dist/src/index.js",
+    "bugs": {
+      "url": "https://github.com/smolespi/Hibiki/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/smolespi/Hibiki.git"
+    },
+    "engines": {
+      "npm": ">=6.9.0",
+      "node": ">=14.0.0"
+    },
+    "scripts": {
+      "build": "tsc",
+      "dev": "nodemon",
+      "format": "cross-env prettier --config .prettierrc 'src/**/*.{css,htm,html,js,json,ts,tsx}' --write",
+      "lint": "eslint --fix .",
+      "start": "tsc && cross-env NODE_ENV=production node dist/src/index.js",
+      "test": "eslint ."
+    },
+    "dependencies": {
+      "@sentry/node": "^5.29.0",
+      "axios": "^0.21.0",
+      "eris": "^0.14.0",
+      "module-alias": "^2.2.2",
+      "rethinkdb-ts": "^2.4.5",
+      "winston": "^3.3.3"
+    },
+    "devDependencies": {
+      "@sentry/types": "^5.29.0",
+      "@types/node": "^14.14.13",
+      "@typescript-eslint/eslint-plugin": "^4.10.0",
+      "@typescript-eslint/parser": "^4.10.0",
+      "cross-env": "^7.0.3",
+      "eslint": "^7.15.0",
+      "eslint-config-prettier": "^7.0.0",
+      "eslint-plugin-prettier": "^3.3.0",
+      "eslint-plugin-simple-import-sort": "^5.0.3",
+      "nodemon": "^2.0.6",
+      "prettier": "^2.2.1",
+      "ts-node": "^9.1.1",
+      "typescript": "^4.1.3"
+    }
   }
-}
+  

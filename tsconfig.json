@@ -11,7 +11,7 @@
     "esModuleInterop": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "lib": ["es2020"],
+    "lib": ["esnext"],
     "module": "commonjs",
     "moduleResolution": "node",
     "noEmitOnError": true,
@@ -26,12 +26,10 @@
     "strict": true,
     "strictBindCallApply": true,
     "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
     "target": "es2020",
     "skipLibCheck": true,
-    "outDir": "./dist",
-    "baseUrl": "./src"
+    "outDir": "./dist"
   },
-  "include": ["src/**/*", "src/**/*.json"],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }
